@@ -1,0 +1,101 @@
+/*公共类*/
+.w {
+    /*版心 提取 */
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.al {
+    text-align: left
+}
+
+.ac {
+    text-align: center
+}
+
+.ar {
+    text-align: right
+}
+
+.hide {
+    display: none
+}
+.ml{
+    margin-right: 7px;
+}
+.ml2{
+    margin-right: 10px;
+}
+.tbm{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+/*--nav 开始--*/
+.nav{
+    width: 100%;
+    height: 140px;
+    background-color: #3ba1ed;
+    overflow: hidden;
+}
+.nav-img{
+    width: 1000px;
+    height: 141px;
+    opacity: 0.8;
+}
+.nav-con{
+    background: -webkit-linear-gradient(top,#3ba7f3, #1760bb, #1760bb);
+    background: -moz-linear-gradient(top,#3ba7f3, #1760bb, #1760bb);
+    background: -o-linear-gradient(top,#3ba7f3, #1760bb, #1760bb);
+    background: -ms-linear-gradient(top,#3ba7f3, #1760bb, #1760bb);
+    background: linear-gradient(top,#3ba7f3, #1760bb, #1760bb);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #3ba7f3, endColorstr = #1760bb);
+}
+.nav-tab{
+    height: 40px;
+    background: -webkit-linear-gradient(top,#3ba7f3, #1760bb, #1760bb);
+    background: -moz-linear-gradient(top,#3ba7f3, #1760bb, #1760bb);
+    background: -o-linear-gradient(top,#3ba7f3, #1760bb, #1760bb);
+    background: -ms-linear-gradient(top,#3ba7f3, #1760bb, #1760bb);
+    background: linear-gradient(top,#3ba7f3, #1760bb, #1760bb);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #3ba7f3, endColorstr = #1760bb);
+    overflow: hidden;
+}
+.nav-tab ul{
+    margin-left: -1px;
+    width: 1002px;
+}
+.nav-tab li{
+    float: left;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.31);
+}
+.nav-tab a{
+    font:600 16px/40px "simsun";
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 53px;
+    display: inline-block;
+    margin:  0 52px\9;
+}
+.nav-tab li.current{
+    background: -webkit-linear-gradient(top,#2875d5, #2875d5, #2875d5);
+    background: -moz-linear-gradient(top,#2875d5, #2875d5, #2875d5);
+    background: -o-linear-gradient(top,#2875d5, #2875d5, #2875d5);
+    background: -ms-linear-gradient(top,#2875d5, #2875d5, #2875d5);
+    background: linear-gradient(top,#2875d5, #2875d5, #2875d5);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #2875d5, endColorstr = #2875d5);
+}
+.content-line1{
+    margin-bottom: 8px;
+}
+/*--nav 结束--*/
